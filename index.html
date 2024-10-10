@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .choice-buttons {
+      margin: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <div class="choice-buttons">
+    <button onclick="handleChoice('rock')">Rock</button>
+    <button onclick="handleChoice('paper')">Paper</button>
+    <button onclick="handleChoice('scissors')">Scissors</button>
+  </div>
+  <div id="computer-choice"></div> <!-- Computer's choice display -->
+  <div id="result"></div>
+  <div id="score"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
